@@ -20,6 +20,8 @@
 		845509621ED37F6300CD4A01 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8455095B1ED37E3F00CD4A01 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		845509641ED37F7000CD4A01 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8455095D1ED37E4B00CD4A01 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		845509651ED37F7000CD4A01 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8455095E1ED37E4B00CD4A01 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		845509691ED3817C00CD4A01 /* FoodModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845509681ED3817C00CD4A01 /* FoodModelSpec.swift */; };
+		8455096B1ED3824000CD4A01 /* Wine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455096A1ED3824000CD4A01 /* Wine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		8455095B1ED37E3F00CD4A01 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		8455095D1ED37E4B00CD4A01 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		8455095E1ED37E4B00CD4A01 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		845509681ED3817C00CD4A01 /* FoodModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodModelSpec.swift; sourceTree = "<group>"; };
+		8455096A1ED3824000CD4A01 /* Wine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 				845509331ED37AFA00CD4A01 /* Assets.xcassets */,
 				845509351ED37AFA00CD4A01 /* LaunchScreen.storyboard */,
 				845509381ED37AFA00CD4A01 /* Info.plist */,
+				8455096A1ED3824000CD4A01 /* Wine.swift */,
 			);
 			path = WineAndDine;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			children = (
 				845509411ED37AFB00CD4A01 /* WineAndDineTests.swift */,
 				845509431ED37AFB00CD4A01 /* Info.plist */,
+				845509681ED3817C00CD4A01 /* FoodModelSpec.swift */,
 			);
 			path = WineAndDineTests;
 			sourceTree = "<group>";
@@ -310,6 +316,7 @@
 			files = (
 				8455092F1ED37AFA00CD4A01 /* ViewController.swift in Sources */,
 				8455092D1ED37AFA00CD4A01 /* AppDelegate.swift in Sources */,
+				8455096B1ED3824000CD4A01 /* Wine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				845509421ED37AFB00CD4A01 /* WineAndDineTests.swift in Sources */,
+				845509691ED3817C00CD4A01 /* FoodModelSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
