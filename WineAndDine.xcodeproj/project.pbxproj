@@ -14,6 +14,12 @@
 		845509371ED37AFA00CD4A01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845509351ED37AFA00CD4A01 /* LaunchScreen.storyboard */; };
 		845509421ED37AFB00CD4A01 /* WineAndDineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845509411ED37AFB00CD4A01 /* WineAndDineTests.swift */; };
 		8455094D1ED37AFB00CD4A01 /* WineAndDineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455094C1ED37AFB00CD4A01 /* WineAndDineUITests.swift */; };
+		8455095C1ED37E3F00CD4A01 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455095B1ED37E3F00CD4A01 /* Alamofire.framework */; };
+		8455095F1ED37E4B00CD4A01 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455095D1ED37E4B00CD4A01 /* Nimble.framework */; };
+		845509601ED37E4B00CD4A01 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455095E1ED37E4B00CD4A01 /* Quick.framework */; };
+		845509621ED37F6300CD4A01 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8455095B1ED37E3F00CD4A01 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		845509641ED37F7000CD4A01 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8455095D1ED37E4B00CD4A01 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		845509651ED37F7000CD4A01 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8455095E1ED37E4B00CD4A01 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		845509611ED37F5700CD4A01 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				845509621ED37F6300CD4A01 /* Alamofire.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845509631ED37F6700CD4A01 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				845509641ED37F7000CD4A01 /* Nimble.framework in CopyFiles */,
+				845509651ED37F7000CD4A01 /* Quick.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		845509291ED37AFA00CD4A01 /* WineAndDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WineAndDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8455092C1ED37AFA00CD4A01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +77,9 @@
 		845509481ED37AFB00CD4A01 /* WineAndDineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WineAndDineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8455094C1ED37AFB00CD4A01 /* WineAndDineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineAndDineUITests.swift; sourceTree = "<group>"; };
 		8455094E1ED37AFB00CD4A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8455095B1ED37E3F00CD4A01 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		8455095D1ED37E4B00CD4A01 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		8455095E1ED37E4B00CD4A01 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8455095C1ED37E3F00CD4A01 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8455095F1ED37E4B00CD4A01 /* Nimble.framework in Frameworks */,
+				845509601ED37E4B00CD4A01 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +117,7 @@
 				845509401ED37AFB00CD4A01 /* WineAndDineTests */,
 				8455094B1ED37AFB00CD4A01 /* WineAndDineUITests */,
 				8455092A1ED37AFA00CD4A01 /* Products */,
+				8455095A1ED37E3F00CD4A01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +162,16 @@
 			path = WineAndDineUITests;
 			sourceTree = "<group>";
 		};
+		8455095A1ED37E3F00CD4A01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8455095D1ED37E4B00CD4A01 /* Nimble.framework */,
+				8455095E1ED37E4B00CD4A01 /* Quick.framework */,
+				8455095B1ED37E3F00CD4A01 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +182,7 @@
 				845509251ED37AFA00CD4A01 /* Sources */,
 				845509261ED37AFA00CD4A01 /* Frameworks */,
 				845509271ED37AFA00CD4A01 /* Resources */,
+				845509611ED37F5700CD4A01 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -152,6 +200,7 @@
 				845509391ED37AFB00CD4A01 /* Sources */,
 				8455093A1ED37AFB00CD4A01 /* Frameworks */,
 				8455093B1ED37AFB00CD4A01 /* Resources */,
+				845509631ED37F6700CD4A01 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -414,6 +463,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = WineAndDine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.acprogram.WineAndDine;
@@ -426,6 +479,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = WineAndDine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.acprogram.WineAndDine;
@@ -439,6 +496,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = WineAndDineTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.acprogram.WineAndDineTests;
@@ -453,6 +514,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = WineAndDineTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.acprogram.WineAndDineTests;
@@ -507,6 +572,7 @@
 				845509531ED37AFB00CD4A01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845509541ED37AFB00CD4A01 /* Build configuration list for PBXNativeTarget "WineAndDineTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +581,7 @@
 				845509561ED37AFB00CD4A01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845509571ED37AFB00CD4A01 /* Build configuration list for PBXNativeTarget "WineAndDineUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +590,7 @@
 				845509591ED37AFB00CD4A01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
