@@ -37,7 +37,7 @@ class WineViewModelSpec: QuickSpec {
         describe(".getFoodPairings") {
             it("lists food pairings for particular wine") {
                 let indexPath = IndexPath(row: 0, section: 0)
-                expect(wineViewModel?.getFoodPairings(at: indexPath)[0]).to(equal("Soft Cheese"))
+                expect(wineViewModel?.getFoodPairings(at: indexPath)).to(equal(["Soft Cheese", "Cured & Smoked Meat", "Dessert"]))
             }
         }
     }

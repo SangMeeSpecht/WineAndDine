@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9Om-hT-ckN">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -12,7 +12,7 @@
         <!--Wine Table View Controller-->
         <scene sceneID="Ifd-3Y-2he">
             <objects>
-                <tableViewController id="jtV-jB-Hgb" customClass="WineTableViewController" customModule="WineAndDine" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="WineTable" id="jtV-jB-Hgb" customClass="WineTableViewController" customModule="WineAndDine" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="k5i-Bg-KIA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,10 +41,29 @@
                             <outlet property="delegate" destination="jtV-jB-Hgb" id="Mhu-yV-u70"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="p8H-9r-kRC"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CBk-qn-09e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-103" y="164"/>
+            <point key="canvasLocation" x="836" y="163.26836581709148"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vIi-zk-qaC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9Om-hT-ckN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pip-B9-Syl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="jtV-jB-Hgb" kind="relationship" relationship="rootViewController" id="nB7-dl-4qT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vav-m0-0tg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-103.2" y="163.26836581709148"/>
         </scene>
     </scenes>
 </document>
