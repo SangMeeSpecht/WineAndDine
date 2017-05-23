@@ -12,16 +12,18 @@
 		845509321ED37AFA00CD4A01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845509301ED37AFA00CD4A01 /* Main.storyboard */; };
 		845509341ED37AFA00CD4A01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845509331ED37AFA00CD4A01 /* Assets.xcassets */; };
 		845509371ED37AFA00CD4A01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845509351ED37AFA00CD4A01 /* LaunchScreen.storyboard */; };
-		845509421ED37AFB00CD4A01 /* WineAndDineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845509411ED37AFB00CD4A01 /* WineAndDineTests.swift */; };
-		8455094D1ED37AFB00CD4A01 /* WineAndDineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455094C1ED37AFB00CD4A01 /* WineAndDineUITests.swift */; };
 		8455095C1ED37E3F00CD4A01 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455095B1ED37E3F00CD4A01 /* Alamofire.framework */; };
 		8455095F1ED37E4B00CD4A01 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455095D1ED37E4B00CD4A01 /* Nimble.framework */; };
 		845509601ED37E4B00CD4A01 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455095E1ED37E4B00CD4A01 /* Quick.framework */; };
 		845509621ED37F6300CD4A01 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8455095B1ED37E3F00CD4A01 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		845509641ED37F7000CD4A01 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8455095D1ED37E4B00CD4A01 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		845509651ED37F7000CD4A01 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8455095E1ED37E4B00CD4A01 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		845509691ED3817C00CD4A01 /* FoodModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845509681ED3817C00CD4A01 /* FoodModelSpec.swift */; };
+		845509691ED3817C00CD4A01 /* WineModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845509681ED3817C00CD4A01 /* WineModelSpec.swift */; };
 		8455096B1ED3824000CD4A01 /* Wine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455096A1ED3824000CD4A01 /* Wine.swift */; };
+		8455096D1ED3904C00CD4A01 /* WineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455096C1ED3904C00CD4A01 /* WineTableViewController.swift */; };
+		84AEFB371ED486F000A414BA /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEFB361ED486F000A414BA /* File.swift */; };
+		84AEFB391ED4871200A414BA /* WineViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEFB381ED4871200A414BA /* WineViewModelSpec.swift */; };
+		84AEFB3B1ED489FA00A414BA /* WineFoodPairings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEFB3A1ED489FA00A414BA /* WineFoodPairings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,16 +76,18 @@
 		845509361ED37AFA00CD4A01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845509381ED37AFA00CD4A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8455093D1ED37AFB00CD4A01 /* WineAndDineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WineAndDineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		845509411ED37AFB00CD4A01 /* WineAndDineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineAndDineTests.swift; sourceTree = "<group>"; };
 		845509431ED37AFB00CD4A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		845509481ED37AFB00CD4A01 /* WineAndDineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WineAndDineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8455094C1ED37AFB00CD4A01 /* WineAndDineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineAndDineUITests.swift; sourceTree = "<group>"; };
 		8455094E1ED37AFB00CD4A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8455095B1ED37E3F00CD4A01 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		8455095D1ED37E4B00CD4A01 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		8455095E1ED37E4B00CD4A01 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
-		845509681ED3817C00CD4A01 /* FoodModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodModelSpec.swift; sourceTree = "<group>"; };
+		845509681ED3817C00CD4A01 /* WineModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineModelSpec.swift; sourceTree = "<group>"; };
 		8455096A1ED3824000CD4A01 /* Wine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wine.swift; sourceTree = "<group>"; };
+		8455096C1ED3904C00CD4A01 /* WineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineTableViewController.swift; sourceTree = "<group>"; };
+		84AEFB361ED486F000A414BA /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		84AEFB381ED4871200A414BA /* WineViewModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineViewModelSpec.swift; sourceTree = "<group>"; };
+		84AEFB3A1ED489FA00A414BA /* WineFoodPairings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineFoodPairings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,9 @@
 				845509351ED37AFA00CD4A01 /* LaunchScreen.storyboard */,
 				845509381ED37AFA00CD4A01 /* Info.plist */,
 				8455096A1ED3824000CD4A01 /* Wine.swift */,
+				8455096C1ED3904C00CD4A01 /* WineTableViewController.swift */,
+				84AEFB361ED486F000A414BA /* File.swift */,
+				84AEFB3A1ED489FA00A414BA /* WineFoodPairings.swift */,
 			);
 			path = WineAndDine;
 			sourceTree = "<group>";
@@ -152,9 +159,9 @@
 		845509401ED37AFB00CD4A01 /* WineAndDineTests */ = {
 			isa = PBXGroup;
 			children = (
-				845509411ED37AFB00CD4A01 /* WineAndDineTests.swift */,
 				845509431ED37AFB00CD4A01 /* Info.plist */,
-				845509681ED3817C00CD4A01 /* FoodModelSpec.swift */,
+				845509681ED3817C00CD4A01 /* WineModelSpec.swift */,
+				84AEFB381ED4871200A414BA /* WineViewModelSpec.swift */,
 			);
 			path = WineAndDineTests;
 			sourceTree = "<group>";
@@ -162,7 +169,6 @@
 		8455094B1ED37AFB00CD4A01 /* WineAndDineUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8455094C1ED37AFB00CD4A01 /* WineAndDineUITests.swift */,
 				8455094E1ED37AFB00CD4A01 /* Info.plist */,
 			);
 			path = WineAndDineUITests;
@@ -314,8 +320,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AEFB371ED486F000A414BA /* File.swift in Sources */,
+				84AEFB3B1ED489FA00A414BA /* WineFoodPairings.swift in Sources */,
 				8455092F1ED37AFA00CD4A01 /* ViewController.swift in Sources */,
 				8455092D1ED37AFA00CD4A01 /* AppDelegate.swift in Sources */,
+				8455096D1ED3904C00CD4A01 /* WineTableViewController.swift in Sources */,
 				8455096B1ED3824000CD4A01 /* Wine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,8 +333,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845509421ED37AFB00CD4A01 /* WineAndDineTests.swift in Sources */,
-				845509691ED3817C00CD4A01 /* FoodModelSpec.swift in Sources */,
+				84AEFB391ED4871200A414BA /* WineViewModelSpec.swift in Sources */,
+				845509691ED3817C00CD4A01 /* WineModelSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +342,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8455094D1ED37AFB00CD4A01 /* WineAndDineUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

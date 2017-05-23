@@ -10,12 +10,10 @@ import Foundation
 
 class Wine {
     let category: String?
-    let name: String?
     let foods: [String]?
     
-    init(category: String, name: String, foods: [String]) {
+    init(category: String, foods: [String]) {
         self.category = category
-        self.name = name
         self.foods = foods
     }
 }
