@@ -19,12 +19,26 @@ class WineViewModel {
     func wineCount() -> Int {
         return wineList.count
     }
+    
+    func foodCount(for wineName: String) -> Int {
+        for wine in wineList {
+            if wine.category == wineName {
+                return wine.foods!.count
+            }
+        }
+        return 0
+    }
 
     func getWineName(at index: IndexPath) -> String {
         return wineList[index.row].category!
     }
     
-    func getFoodPairings(at index: IndexPath) -> [String] {
-        return wineList[index.row].foods!
+    func getFoodPairings(for wineName: String) -> [String] {
+        for wine in wineList {
+            if wine.category == wineName {
+                return wine.foods!
+            }
+        }
+        return []
     }
 }
