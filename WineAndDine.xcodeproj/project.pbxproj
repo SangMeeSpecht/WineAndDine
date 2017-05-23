@@ -22,6 +22,8 @@
 		845509691ED3817C00CD4A01 /* WineModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845509681ED3817C00CD4A01 /* WineModelSpec.swift */; };
 		8455096B1ED3824000CD4A01 /* Wine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455096A1ED3824000CD4A01 /* Wine.swift */; };
 		8455096D1ED3904C00CD4A01 /* WineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455096C1ED3904C00CD4A01 /* WineTableViewController.swift */; };
+		84556CF21ED4D96900EBE387 /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84556CF11ED4D96900EBE387 /* FoodTableViewController.swift */; };
+		84556CF41ED4D9EC00EBE387 /* FoodTableViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84556CF31ED4D9EC00EBE387 /* FoodTableViewControllerSpec.swift */; };
 		84AEFB371ED486F000A414BA /* WineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEFB361ED486F000A414BA /* WineViewModel.swift */; };
 		84AEFB391ED4871200A414BA /* WineViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEFB381ED4871200A414BA /* WineViewModelSpec.swift */; };
 		84AEFB3B1ED489FA00A414BA /* WineFoodPairings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEFB3A1ED489FA00A414BA /* WineFoodPairings.swift */; };
@@ -87,6 +89,8 @@
 		845509681ED3817C00CD4A01 /* WineModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineModelSpec.swift; sourceTree = "<group>"; };
 		8455096A1ED3824000CD4A01 /* Wine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wine.swift; sourceTree = "<group>"; };
 		8455096C1ED3904C00CD4A01 /* WineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineTableViewController.swift; sourceTree = "<group>"; };
+		84556CF11ED4D96900EBE387 /* FoodTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
+		84556CF31ED4D9EC00EBE387 /* FoodTableViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewControllerSpec.swift; sourceTree = "<group>"; };
 		84AEFB361ED486F000A414BA /* WineViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineViewModel.swift; sourceTree = "<group>"; };
 		84AEFB381ED4871200A414BA /* WineViewModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineViewModelSpec.swift; sourceTree = "<group>"; };
 		84AEFB3A1ED489FA00A414BA /* WineFoodPairings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineFoodPairings.swift; sourceTree = "<group>"; };
@@ -154,6 +158,7 @@
 				8455096C1ED3904C00CD4A01 /* WineTableViewController.swift */,
 				84AEFB361ED486F000A414BA /* WineViewModel.swift */,
 				84AEFB3A1ED489FA00A414BA /* WineFoodPairings.swift */,
+				84556CF11ED4D96900EBE387 /* FoodTableViewController.swift */,
 			);
 			path = WineAndDine;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 				845509681ED3817C00CD4A01 /* WineModelSpec.swift */,
 				84AEFB381ED4871200A414BA /* WineViewModelSpec.swift */,
 				842C97EE1ED4D2A0000EE968 /* WineTableViewControllerSpec.swift */,
+				84556CF31ED4D9EC00EBE387 /* FoodTableViewControllerSpec.swift */,
 			);
 			path = WineAndDineTests;
 			sourceTree = "<group>";
@@ -326,6 +332,7 @@
 				84AEFB371ED486F000A414BA /* WineViewModel.swift in Sources */,
 				84AEFB3B1ED489FA00A414BA /* WineFoodPairings.swift in Sources */,
 				8455092F1ED37AFA00CD4A01 /* ViewController.swift in Sources */,
+				84556CF21ED4D96900EBE387 /* FoodTableViewController.swift in Sources */,
 				8455092D1ED37AFA00CD4A01 /* AppDelegate.swift in Sources */,
 				8455096D1ED3904C00CD4A01 /* WineTableViewController.swift in Sources */,
 				8455096B1ED3824000CD4A01 /* Wine.swift in Sources */,
@@ -338,6 +345,7 @@
 			files = (
 				84AEFB391ED4871200A414BA /* WineViewModelSpec.swift in Sources */,
 				842C97EF1ED4D2A0000EE968 /* WineTableViewControllerSpec.swift in Sources */,
+				84556CF41ED4D9EC00EBE387 /* FoodTableViewControllerSpec.swift in Sources */,
 				845509691ED3817C00CD4A01 /* WineModelSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
